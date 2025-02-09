@@ -14,7 +14,7 @@ public class CrsApplication {
     public static void main(String[] args) {
         SpringApplication.run(CrsApplication.class, args);
     }
-
+    
     @Bean
     ApplicationRunner init(CourseRepository repository) {
         return args -> {

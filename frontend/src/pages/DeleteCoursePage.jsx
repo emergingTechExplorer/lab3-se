@@ -20,7 +20,7 @@ function DeleteCoursePage({ getCourses }) {
 
   return (
     <div>
-      <h2>Delete Course</h2>
+      <h1>Delete Course</h1>
       <input
         type="text"
         placeholder="Course ID"
